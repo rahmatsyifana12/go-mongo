@@ -20,9 +20,9 @@ type User struct {
 }
 
 type Item struct {
-	ItemID			int		`bson:"item_id" json:"item_id"`
-	Description		string	`bson:"description" json:"description"`
-	Price			float32	`bson:"price" json:"price"`
+	ItemID          int     `bson:"item_id" json:"item_id"`
+	Description     string  `bson:"description" json:"description"`
+	Price           float32 `bson:"price" json:"price"`
 }
 
 func main() {
