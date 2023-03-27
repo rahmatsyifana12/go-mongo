@@ -14,7 +14,7 @@ import (
 
 type User struct {
     Name	string	`bson:"name" json:"name"`
-    Age		int		`bson:"age" json:"age"`
+    Age     int     `bson:"age" json:"age"`
     Address	string	`bson:"address,omitempty" json:"address,omitempty"`
     Phone	string	`bson:"phone" json:"phone"`
 }
